@@ -9,7 +9,3 @@ def get_choices():
     choices={"player":player_choice,"computer":computer_choice}
     return choices
 
-choices=get_choices()
-print(choices)
-
-dict={"name":"player","shape":choices}
